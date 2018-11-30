@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CashierActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cashier"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tables"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t1"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t2"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t3"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t5"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t6"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t7"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t9"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t10"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t11"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t12"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="13"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t13"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t14"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t15"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="16"
+                    android:clickable="true"
+                    android:onClick="manageOrder"
+                    android:id="@+id/t16"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Change"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/billAmount"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:hint="Bill Amount"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/money"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:hint="Money"
+                android:inputType="numberDecimal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:clickable="true"
+                android:onClick="calculateChange"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change: "
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewReservationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment_place"
+            android:name="com.example.socratis.symbols.ViewReservationFragment"
+            android:layout_width="match_parent"
+            android:layout_height="440dp">
+        </fragment>
+
+
+        <Button
+            android:id="@+id/addReservation"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="ADD RESERVATION"
+            android:clickable="true"
+            android:onClick="changeFragment" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/deleteReservation"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:text="DELETE RESERVATION"
+                android:clickable="true"/>
+
+            <EditText
+                android:id="@+id/reservationId"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/viewReservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESERVATIONS"
+            android:clickable="true"
+            android:onClick="changeFragment"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

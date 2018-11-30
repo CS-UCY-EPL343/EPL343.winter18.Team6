@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOST"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tables"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r1"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r2"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r3"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r5"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r6"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r7"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r9"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r10"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r11"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r12"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="13"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r13"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r14"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r15"/>
+
+                <Button
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="16"
+                    android:clickable="true"
+                    android:onClick="manageReservation"
+                    android:id="@+id/r16"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/addReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="addReservation"
+                android:text="Add"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/tableChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change\nTables"
+                    android:clickable="true"
+                    android:onClick="changeTable"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:id="@+id/fromTable"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:hint="from"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/toTable"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:hint="to"
+                    android:textAlignment="center"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/clearReservation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="clearReservation"
+                    android:text="CLEAR"/>
+
+                <EditText
+                    android:id="@+id/clearTable"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Table Number"
+                    android:inputType="number"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/clearReservations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear\nall"
+                android:clickable="true"
+                android:onClick="clearReservations"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
